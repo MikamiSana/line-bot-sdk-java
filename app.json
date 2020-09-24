@@ -15,10 +15,22 @@
 }
 
 {
-    "type": "text",
-    "text": "Hello, I am Cony!!",
-    "sender": {
-        "name": "Cony",
-        "iconUrl": "https://line.me/conyprof"
+    "type": "template",
+    "altText": "this is a confirm template",
+    "template": {
+        "type": "confirm",
+        "actions": [
+            {
+                "type": "message",
+                "label": "はい",
+                "text": "はい"
+            },
+            {
+                "type": "message",
+                "label": "いいえ",
+                "text": "いいえ"
+            }
+        ],
+        "text": "テキストです"
     }
 }
