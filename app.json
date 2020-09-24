@@ -13,3 +13,12 @@
         }
     }
 }
+
+{
+    "type": "text",
+    "text": "Hello, I am Cony!!",
+    "sender": {
+        "name": "Cony",
+        "iconUrl": "https://line.me/conyprof"
+    }
+}
